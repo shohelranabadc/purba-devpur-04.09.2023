@@ -1,0 +1,88 @@
+/* lg 1025px to 1200px */
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    
+}
+
+/* md 769px to 1024px bs-991px*/
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    
+}
+
+/* iPads, Tablets small devices */
+@media only screen and (max-width: 768px) and (min-width: 577px){
+    
+
+}
+
+
+/* Mobile devices x-small */
+@media only screen and (max-width: 576px){
+    #main-wrapper .header{
+        padding-top: 1rem !important;
+    }
+
+    .logo-container .logo img {
+        width: 100%;
+        max-width: 80px;
+        height: auto;
+        border-radius: 50%;
+      }
+    
+      .top-content{
+        padding-top: 1rem;
+      }
+
+    .top-content h1{
+        font-size: 1.5rem;
+        /* color: #000; */
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 0px;
+    }
+
+    .top-content h2{
+        font-size: 1.2rem;
+        color: #85f00b !important;
+    }
+
+    .top-content p{
+        font-size: 0.8rem;
+    }
+
+    .top-content p + p{
+        font-size: 1.2rem;
+    }
+
+    .breaking-caret:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-left: 15px solid var(--bg-color);
+        border-bottom: 16px solid transparent;
+        position: absolute;
+        right: -0px;
+        top: 0;
+      }
+
+      .news-sliding .carousel-inner .carousel-item a span{
+        margin: 0 0px !important;
+        font-size: 0.5rem !important;
+      }
+
+      .news-sliding .carousel-inner .carousel-item a + a{
+        font-size: 0.5rem;
+      }
+
+      .navbar{
+        margin-top: 0rem !important;
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+      }
+
+      .slide-img-height{
+        max-height: 250px;
+        background-size: contain;
+      }
+
+
+}
